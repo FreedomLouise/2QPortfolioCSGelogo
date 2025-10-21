@@ -1,0 +1,78 @@
+/*A*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: "5px";
+}
+/*B*/
+body {
+    background-color: rgb(255, 251, 238);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-attachment:fixed
+}
+/*C*/
+header, footer {
+    background-color: rgb(255, 232, 232);
+    text-align: center;
+    padding: 10px;
+}
+/*D*/
+#main-title {
+    margin: 3px;
+    margin-bottom:0%;
+    text-transform:uppercase;
+    line-height: -3px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px grey;
+}
+/*E*/
+.intro {
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+/*F*/
+.section > img {
+    display: block;
+    width: 25vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*G*/
+.container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.container ul {
+    list-style-type: none;
+    clear:left;
+}
+/*H*/
+a[_blank] {
+    background-color: yellow;
+}
+a[href="/internal-page"] {
+    background-color: yellowgreen;
+}
+/*I*/
+a:hover pseudo-class{
+    font-size: 120%;
+}
+/*J*/
+.container ul {
+list-style-type: none; /* removes bullets */
+clear: left; /* removes effect of float:left */
+padding: 0; /* removes the spaces surrounding the li/s */
+}
+.container ul li {
+width: 150px;
+padding: 5px;
+background-color: cornsilk;
+text-align: center;
+display: inline-block;
+border-radius: 0px 25px;
+}
